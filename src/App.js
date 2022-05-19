@@ -22,6 +22,7 @@ import NodeInfo from './NodeInfo'
 import TemplateModule from './TemplateModule'
 import Transfer from './Transfer'
 import Upgrade from './Upgrade'
+import SumStorage from './SumStorage'
 
 function Main() {
   const { apiState, apiError, keyringState } = useSubstrateState()
@@ -83,6 +84,7 @@ function Main() {
           </Grid.Row>
           <Grid.Row>
             <TemplateModule />
+            <SumStorage />
           </Grid.Row>
         </Grid>
       </Container>

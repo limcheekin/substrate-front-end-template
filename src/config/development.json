@@ -1,3 +1,12 @@
 {
-  "PROVIDER_SOCKET": "ws://127.0.0.1:9944"
+  "PROVIDER_SOCKET": "ws://127.0.0.1:9944",
+  "CUSTOM_RPC_METHODS": {
+    "sumStorage": {
+      "getSum": {
+        "description": "Gets the sum of the two storage values in sum-storage pallet via a runtime api.",
+        "params": [],
+        "type": "u32"
+      }
+    }
+  }
 }
